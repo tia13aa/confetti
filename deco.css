@@ -1,0 +1,28 @@
+body{
+    text-decoration: dotted;
+    text-align: center;
+    color: rgb(159, 75, 85);
+    font-family: fantasy;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/930/774/small/seamless-bright-confetti-party-pattern-colorful-sugar-sprinkle-design-on-a-white-background-free-vector.jpg);
+    background-position: center;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+button{
+    font-family: fantasy;
+    font-size: 20px;
+    position: center;
+    color:  #f59c9a;
+    background-color:rgb(159, 75, 85) ;
+    transition: transform 0.4 ease-in;
+    padding:15px 35px;
+    border: rgb(201, 104, 104);
+    border-radius: 26px;
+    cursor: pointer;
+    box-shadow: 0px 1.7px 2.2px rgba(0,0,0,0.02),
+    0px 4px 5.3px rgba(0,0,0,0.028),
+    0px 7.5px 10px rgba(0,0,0,0.035);
+}
+.button:active{
+    transform: scale(1.01);
+}
